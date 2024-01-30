@@ -1,0 +1,89 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 650px;
+    background-color: #141414;
+}
+
+#site-container {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    width: 260px;
+    height: 430px;
+    padding-top: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    border-radius: 50px;
+}
+
+h2, h5 { 
+    margin: 0;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: -1px 4px 3px -1px rgba(0,0,0,0.1); 
+    opacity: 1.0;
+}
+
+button:hover {
+    background-color: #c5f82a;
+    color: black;
+    cursor: pointer;
+}
+
+.button-1 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.button-2 {
+    padding-left: 61px;
+    padding-right: 61px;
+}
+
+.button-3 {
+    padding-left: 86px;
+    padding-right: 86px;
+}
+
+.button-4 {
+    padding-left: 92px;
+    padding-right: 92px;
+}
+
+.button-5 {
+    padding-left: 82px;
+    padding-right: 82px;
+}
+
+@media (min-width: 375px) {
+    #main-container {
+        width: auto;
+    } 
+}
